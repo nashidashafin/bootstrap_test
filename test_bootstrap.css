@@ -1,0 +1,57 @@
+
+body{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.nav{
+    background-image: url(./images/creative-abstract-mixed-coral-color-painting-with-marble-effect-panorama.jpg);
+}
+
+.prof_card{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    
+}
+
+.row{
+    padding-bottom: 250px;
+}
+
+.card{
+    padding-bottom: 250px;
+
+}
+
+
+@media (max-width:576px) {
+    .i{
+        text-align: center;
+        
+
+    }
+    .prof_card{
+        text-align:center;
+        box-shadow: none;
+        /* padding-left: 10%; */
+        padding-top: 5%;
+    }
+    .nav{
+        margin-top:20px;
+    }
+    
+}
+
+
+
+@media (max-width:313px) {
+    .card-img-topwidth {
+        width:  20px;
+    }
+    
+}
+
+@media (max-width:1171px){
+    .p1{
+        font-size: small;
+    }
+}
