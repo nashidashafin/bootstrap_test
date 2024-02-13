@@ -38,6 +38,9 @@ body{
     .nav{
         margin-top:20px;
     }
+    .card{
+        padding-bottom: 2%;
+    }
     
 }
 
